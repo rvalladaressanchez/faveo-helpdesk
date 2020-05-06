@@ -184,9 +184,10 @@ class PhpMailController extends Controller
                 $config = ['host'      => $mail->sending_host,
                             'port'     => $mail->sending_port,
                             'security' => $mail->sending_encryption,
-                            'username' => $mail->email_address,
-                            'password' => $mail->password,
+                            'username' => $mail->user_name,
+                            'password' => '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',
                         ];
+                //dd($config);
                 if (!$this->commonMailer->setSmtpDriver($config)) {
                     \Log::info('Invaid configuration :- '.$config);
 

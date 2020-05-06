@@ -6,10 +6,12 @@ Homestead.json
 /config/lfm.php
 /nbproject/*
 /node_modules
+/public/storage
 /public/error_log
 /public/lb-faveo/media/
 /public/uploads
 /public/photos/
 /app/FaveoJob
-/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+/vendor
 /storage/app/attachments
+/storage/*.key

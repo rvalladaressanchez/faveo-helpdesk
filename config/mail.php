@@ -26,7 +26,7 @@ return [
       | the Mailgun mail service which will provide reliable deliveries.
       |
      */
-    'host' => '',
+    'host' => 'smtp.sendgrid.net',
     /*
       |--------------------------------------------------------------------------
       | SMTP Host Port
@@ -37,7 +37,7 @@ return [
       | stay compatible with the Mailgun e-mail application by default.
       |
      */
-    'port' => '',
+    'port' => '25',
     /*
       |--------------------------------------------------------------------------
       | Global "From" Address
@@ -48,7 +48,7 @@ return [
       | used globally for all e-mails that are sent by your application.
       |
      */
-    'from' => ['address' => '', 'name' => ''],
+    'from' => ['address' => 'contacto@rvs.cl', 'name' => 'Contacto'],
     /*
       |--------------------------------------------------------------------------
       | E-Mail Encryption Protocol
@@ -59,7 +59,7 @@ return [
       | transport layer security protocol should provide great security.
       |
      */
-    'encryption' => '',
+    'encryption' => 'tls',
     /*
       |--------------------------------------------------------------------------
       | SMTP Server Username
@@ -70,7 +70,7 @@ return [
       | connection. You may also set the "password" value below this one.
       |
      */
-    'username' => '',
+    'username' => 'apikey',
     /*
       |--------------------------------------------------------------------------
       | SMTP Server Password
@@ -81,7 +81,7 @@ return [
       | connection so that the application will be able to send messages.
       |
      */
-    'password' => '',
+    'password' => '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',
     /*
       |--------------------------------------------------------------------------
       | Sendmail System Path

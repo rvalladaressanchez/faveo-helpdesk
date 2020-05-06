@@ -13,5 +13,4 @@ Homestead.json
 /public/photos/
 /app/FaveoJob
 /vendor
-/storage/app/attachments
-/storage/*.key
+/storage
